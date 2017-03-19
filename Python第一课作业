@@ -1,0 +1,17 @@
+一、pip安装包如何指定版本
+1、pip使用详解
+  1.1pip安装包命令
+    pip install SomePackage
+  1.2pip查看已安装的包
+    pip show --files SomePackage
+  1.3pip检查哪些包需要更新
+    pip list --outdated(pip list -o)
+    pip list --updodate(pip list -u)
+    查看 list 使用方法：pip list -help
+  1.4pip升级包
+    pip install --upgrade SomePackage
+  1.5pip卸载包
+    pip uninstall SomePackage
+  1.6pip安装指定版本的包
+    pip install SomePackage==version
+    pip install robotframework==2.8.7
