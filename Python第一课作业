@@ -15,3 +15,4 @@
   1.6pip安装指定版本的包
     pip install SomePackage==version
     pip install robotframework==2.8.7
+二、学习使用git
