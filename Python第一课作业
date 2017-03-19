@@ -16,3 +16,12 @@
     pip install SomePackage==version
     pip install robotframework==2.8.7
 二、学习使用git
+1、注册github账号
+2、创建repository库
+3、本地创建目录，克隆repository到本地
+git clone url
+4、进入克隆后的项目目录（记住一定要切换目录）
+修改文件内容后，提交并push
+git commit -am “备注信息”
+git push
+
